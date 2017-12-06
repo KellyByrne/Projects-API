@@ -4,14 +4,15 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var projectSchema = new Schema({
-    id: Number,
-    title: String,
-    technologies: String,
-    summary: String,
-    category: String,
-    images: [],
-    links: [],
-    'github-link': String
+    // id: Number,
+    // title: String,
+    // technologies: String,
+    // summary: String,
+    // category: String,
+    // computerimg: String,
+    // deskimg2: String,
+    // links: [],
+    // 'github-link': String
 });
 
 var Project = mongoose.model('Project', projectSchema);
